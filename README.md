@@ -1,4 +1,4 @@
-# BankSystem API
+# Bank System API
 
 A Spring Boot-based RESTful Banking System with JWT authentication, Swagger UI documentation, and modular support for managing **Customers**, **Accounts**, and **Cards**.
 
