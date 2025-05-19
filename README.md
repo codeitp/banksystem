@@ -97,7 +97,9 @@ Accounts		GET			/api/v1/accounts		List accounts (filter)
 Cards			GET			/api/v1/cards			List cards
 ...				...			...						More in Swagger UI
 
+
 ### 👤 Author
 Patroba Oteko
 📧 patrobaoteko@gmail.com
 🌍 Nairobi, Kenya
+
