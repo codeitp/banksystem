@@ -89,14 +89,15 @@ Authorization: Bearer <token>
 
 ```
 ### API Endpoints Overview
-Resource		Method		Endpoint				Description
-Customers		GET			/api/v1/customers		List customers
-Customers		POST		/api/v1/customers		Create customer
-Customers		GET			/api/v1/customers/{id}	Get customer by ID
-Accounts		GET			/api/v1/accounts		List accounts (filter)
-Cards			GET			/api/v1/cards			List cards
-...				...			...						More in Swagger UI
 
+| **Resource**  | **Method**  |       **Endpoint**       |      **Description**    |
+|---------------|-------------|--------------------------|-------------------------|
+|  Customers    |  GET        |     /api/v1/customers    |    List customer        |
+|  Customers    |  POST       |     /api/v1/customer     |    Create customer      |
+|  Customers    |  GET        |  /api/v1/customers/{id}  |    Get customer by ID   |
+|  Accounts     |  GET        |     /api/v1/accounts     |  List accounts (filter) |
+|  Cards        |  GET        |     /api/v1/cards        |    List cards           |
+|  ...          |  ...        |       ...                |    More in Swagger UI   |
 
 ### 👤 Author
 Patroba Oteko
