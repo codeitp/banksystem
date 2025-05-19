@@ -17,11 +17,5 @@ public class AuthController {
     public ResponseEntity<String> generateToken(@RequestBody AuthRequest request) {
         return ResponseEntity.ok(jwtUtil.generateToken(request.getUsername()));
     }
-
-    @Data
-    public class AuthRequest {
-        private String username;
-    }
-
 }
 
