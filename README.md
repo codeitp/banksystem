@@ -32,6 +32,7 @@ A Spring Boot-based RESTful Banking System with JWT authentication, Swagger UI d
 ---
 
 ## Project Structure
+```bash
 src/
 ├── main/
 │ ├── java/com.bank.banksystem/
@@ -47,7 +48,7 @@ src/
 │ └── ... (unit tests)
 Dockerfile
 docker-compose.yml
-
+```
 ## Setup Instructions
 
 ### 1. Clone the repo
